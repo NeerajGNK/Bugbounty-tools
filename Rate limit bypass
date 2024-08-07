@@ -1,0 +1,24 @@
+X-Forwarded: 127.0.0.1
+X-Forwarded-By: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+X-Forwarded-For-Original: 127.0.0.1
+X-Forwarded-For-Ip: 127.0.0.1
+X-Forwarded-Host:
+X-Forward-For:
+Forwarded:
+Forwarded-For:
+Forwarded-For-IP:
+X-Originating-IP:
+X-Remote-IP:
+X-Remote-Addr:
+X-Client-IP:
+X-Host:
+X-True-Ip:
+
+2.rate limit on otp sms
+1) capture the request
+2) remove the country code +91 to []
+3) modify the number from xxxx-xxxx to +91 xxxx-xxxx
+
+3 add this characters after the email or mobile
+%00,%0d%0a, %09, %0C, %20 , %0
