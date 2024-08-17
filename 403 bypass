@@ -1,0 +1,10 @@
+using space symbols
+/admin -> 403
+/admin%09 -> ok
+/admin%20 -> ok
+
+2: use traversal
+/admin -> 403
+/..;/admin -> ok
+ /..;/FUZZ
+ 
